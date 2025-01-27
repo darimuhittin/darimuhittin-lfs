@@ -2,51 +2,6 @@
 
 A robust and secure backend for the LumFlights flight reservation management system, built with NestJS and Firebase.
 
-## Features
-
-- 🔐 **Authentication & Authorization**
-
-  - JWT-based authentication
-  - Role-based access control (Admin/Staff)
-  - Token refresh mechanism
-  - Secure password hashing with bcrypt
-
-- 🛡️ **Security**
-
-  - Helmet security middleware
-  - CORS protection
-  - Rate limiting (10 requests/minute)
-  - Request validation
-  - Type-safe endpoints
-
-- 📝 **API Documentation**
-
-  - Swagger/OpenAPI documentation
-  - API versioning
-  - Detailed endpoint descriptions
-  - Request/response schemas
-
-- ✈️ **Reservation Management**
-
-  - CRUD operations for flight reservations
-  - Advanced filtering and pagination
-  - Real-time updates
-  - AI-powered suggestions
-  - Customer management
-
-- 📊 **Data Management**
-
-  - Firestore database integration
-  - Efficient querying
-  - Data validation
-  - Mock data generation
-
-- 🔍 **Monitoring**
-  - Request logging
-  - Error tracking
-  - Performance monitoring
-  - API metrics
-
 ## Tech Stack
 
 - **Framework**: NestJS
